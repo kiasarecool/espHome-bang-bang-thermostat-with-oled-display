@@ -7,11 +7,11 @@ esp8266:
 logger:
 api:
   encryption:
-    key: "A3YEnawERMRowv+h19i6QTFz0glyGkCq1iqTHQe1h/k="
+    key: ""
 ota:
-  password: "fb08a79e73e9f0156557a487a09559cf"
+  password: ""
 wifi:
-  ssid: "Plant Factory ATT "
+  ssid: ""
   password: !secret wifi_password  
   ap:
     ssid: "${esp_name}"
